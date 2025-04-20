@@ -1,0 +1,58 @@
+{
+  "prettier.configPath": "prettier.config.js",
+  "cSpell.userWords": [
+    "Attachs",
+    "autoprefixer",
+    "Cascader",
+    "Clac",
+    "dcloudio",
+    "deepseek",
+    "esbuild",
+    "licence",
+    "pinia",
+    "Previewable",
+    "Renderjs",
+    "Sider",
+    "Tabbar",
+    "tailwindcss",
+    "uscc",
+    "vitejs",
+    "vite",
+    "vnode",
+    "vueuse",
+    "wechat",
+    "npmcli",
+    "pkgjs",
+    "rollup"
+  ],
+  "cSpell.ignorePaths": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/coverage/**",
+    "**/lib/**",
+    "**/out/**",
+    "**/es/**",
+    "**/lib-esm/**",
+    "**/lib-cjs/**",
+    "**/lib-umd/**",
+    "**/lib-legacy/**",
+    "**/lib-ssr/**",
+    "**/lib-ssr-browser/**",
+    "**/__tests__/**",
+    "pnpm-lock.yaml",
+    "yrn.lock",
+    "yarn-error.log",
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.fixAll.eslint": "always",
+    "source.fixAll.stylelint": "always"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}

@@ -1,0 +1,31 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "UI component library based on React, Material-UI, and Tailwind CSS",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "@emotion/react": "11.14.0",
+    "@emotion/styled": "11.14.0",
+    "@fontsource/roboto": "5.2.5",
+    "@mui/material": "7.0.1",
+    "lodash": "4.17.21",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.17.16",
+    "@types/node": "22.14.0",
+    "ky": "1.8.0"
+  },
+  "keywords": [
+    "react",
+    "library",
+    "material-ui",
+    "typescript",
+    "javascript",
+    "tailwindcss"
+  ],
+  "author": "zoujunqin",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+node_modules
+yarn.lock
+pnpm-lock.yaml
+
+**/*.json
+
+*.log
+*.tsbuildinfo
+*.d.ts
+tsconfig.json
+tsconfig.*.json

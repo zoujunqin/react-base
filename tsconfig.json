@@ -1,0 +1,60 @@
+{
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "dist/**/*",
+    "node_modules/**/*"
+  ],
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "es2016", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "jsx": "react-jsx", /* Specify what JSX code is generated. */
+    /* Modules */
+    "module": "ES2020", /* Specify what module code is generated. */
+    "rootDir": "./", /* Specify the root folder within your source files. */
+    "moduleResolution": "node", /* Specify how TypeScript looks up a file from a given module specifier. */
+    /* Specify a set of entries that re-map imports to additional lookup locations. */
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@hooks/*": [
+        "./src/hooks/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@styles/*": [
+        "./src/styles/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@core/*": [
+        "./core/src/*"
+      ],
+    },
+    /* Specify multiple folders that act like './node_modules/@types'. */
+    "typeRoots": [
+      "./node_modules",
+      "./node_modules/@types",
+      "./types"
+    ],
+    /* Specify type package names to be included without being referenced in a source file. */
+    "types": [
+      "node",
+      "vite/client"
+    ],
+    "esModuleInterop": true, /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
+    /* Type Checking */
+    "strict": true, /* Enable all strict type-checking options. */
+    /* Completeness */
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+  }
+}
